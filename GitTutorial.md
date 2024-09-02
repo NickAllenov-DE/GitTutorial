@@ -87,25 +87,25 @@ P.S.: в случае неиспользования функции наимен
 
 ## Дополнительные команды
 
-Cherry-pick:
+* Cherry-pick:
 
       git cherry-pick <commit_hash>
       
 Используется для применения изменений из одного коммита к текущей ветке.
 
-Reset:
+* Reset:
 
       git reset --hard <commit_hash>
 
 Возвращает состояние репозитория к указанному коммиту, удаляя все изменения.
 
-Revert:
+* Revert:
 
       git revert <commit_hash>
 
 Создаёт новый коммит, отменяющий изменения, внесённые указанным коммитом.
 
-Rebase:
+* Rebase:
 
       git rebase <branch_name>
 
